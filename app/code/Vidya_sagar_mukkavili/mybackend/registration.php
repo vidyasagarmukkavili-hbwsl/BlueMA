@@ -12,3 +12,5 @@ ComponentRegistrar::register(
     'Vidya_sagar_mukkavili_mybackend',
     __DIR__
 );
+
+// We have given a new name here for the module
