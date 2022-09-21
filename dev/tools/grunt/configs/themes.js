@@ -50,5 +50,24 @@ module.exports = {
             'css/styles'
         ],
         dsl: 'less'
+    },
+    vidya_sagar_mukkavili_mytheme: {
+        area: 'frontend',
+        name: 'Vidya_sagar_mukkavili/mytheme',
+        locale: 'en_US',
+        files: [
+            'css/styles-m', //path to root source file
+            'css/styles-l'
+        ],
+        dsl: 'less'
+    },
+    vidya_sagar_mukkavili_mybackend: {
+        area: 'adminhtml',
+        name: 'Vidya_sagar_mukkavili/mybackend',
+        locale: 'en_US',
+        files: [
+            'css/styles' //path to root source file
+        ],
+        dsl: 'less'
     }
 };

@@ -51,7 +51,7 @@
          ],
          dsl: 'less'
      },
-     Vidya_sagar_mukkavili_mytheme: {
+     vidya_sagar_mukkavili_mytheme: {
         area: 'frontend',
         name: 'Vidya_sagar_mukkavili/mytheme',
         locale: 'en_US',
@@ -61,7 +61,7 @@
         ],
         dsl: 'less'
     },
-    Vidya_sagar_mukkavili_mybackend: {
+    vidya_sagar_mukkavili_mybackend: {
         area: 'adminhtml',
         name: 'Vidya_sagar_mukkavili/mybackend',
         locale: 'en_US',

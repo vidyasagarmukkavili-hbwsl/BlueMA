@@ -7,6 +7,14 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
+        <css src="css/styles-m.css"/>
+        <css src="css/styles-l.css" media="screen and (min-width: 768px)"/>
+        <css src="css/print.css" media="print"/>
+        <meta name="format-detection" content="telephone=no"/>
         <css src="css/vscustom.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1px)" />
+        <!-- The favicon -->
+        <link src="Magento_Theme::icons8-l-67.png" rel="icon" sizes="67x67" />
+        <!-- <title>Luma | Blue </title> -->
+        
     </head>
 </page>
