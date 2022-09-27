@@ -4,3 +4,8 @@
 .footer.content .links a {
   color: #ff5501;
 }
+#top-cart-btn-checkout {
+  background: #0bbb8f !important;
+  border-radius: 15px !important;
+  border: 0 transparent;
+}
