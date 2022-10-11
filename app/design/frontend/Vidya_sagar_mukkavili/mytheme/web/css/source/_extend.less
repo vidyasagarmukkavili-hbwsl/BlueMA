@@ -1,0 +1,83 @@
+// /**
+//  * Copyright © Magento, Inc. All rights reserved.
+//  * See COPYING.txt for license details.
+//  */
+
+//
+//  List default styles reset
+//  ---------------------------------------------
+
+// My custom CSS theme additions-
+
+
+// @page__background-color: lighten(rgb(153, 217, 240), 25%);
+// @page__background-color: black;
+// @color-blue-dodger: #0b84ca;
+
+
+@import "./lib/variables/_colors.less";
+@import "_buttons_extend.less";
+@import "_typography_extend.less";
+// @import "_variables_extend.less";
+
+
+
+// @page__background-color: lighten(green, 25%);
+@page__background-color: lighten(@color-blue-dodger, 25%);
+@panel__background-color: lighten(rgb(190, 227, 24), 20%); 
+@copyright__background-color: @color-blue-dodger;
+@navigation__background: lighten(yellow, 20%);
+
+
+
+
+//   .fontawesomeicon::before {
+//     display: inline-block;
+//     text-rendering: auto;
+//     -webkit-font-smoothing: antialiased;
+//  }
+
+//   #search_mini_form::before {
+//     display: inline-block;
+//     text-rendering: auto;
+//     -webkit-font-smoothing: antialiased;
+
+//     font-family: "Font Awesome 6 Free";
+//     font: var(--fa-font-solid);
+//     content: "\f54e";
+//     font-weight: 900; 
+    
+//   }
+
+  // #search_mini_form::before {
+  //   content: 'Test'
+  // }
+
+
+
+#new-element{
+
+  text-align: right;
+  // position: absolute;
+// display: none;
+}
+
+#text-and-search-id{
+
+display: flex;
+row-gap: 10px;
+column-gap: 10px;
+
+position: absolute;
+right: 50px;
+}
+
+.block.block-search{
+padding-left: 0;
+
+}
+
+#my-store__icon{
+  position: relative;
+  top: 10px;
+}

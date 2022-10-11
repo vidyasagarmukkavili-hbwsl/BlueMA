@@ -14,7 +14,12 @@
         <css src="css/vscustom.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1px)" />
         <!-- The favicon -->
         <link src="Magento_Theme::icons8-l-67.png" rel="icon" sizes="67x67" />
-        <!-- <title>Luma | Blue </title> -->
-        
+
+        <link rel="stylesheet" type="url" src="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap" src_type="url"/>
+
+        <link rel="stylesheet" src="css/fontawesome.css" type="text/css"/>
+        <link rel="stylesheet" src="css/solid.css" type="text/css"/>
+        <link rel="stylesheet" src="css/brands.css" type="text/css"/>
+
     </head>
 </page>

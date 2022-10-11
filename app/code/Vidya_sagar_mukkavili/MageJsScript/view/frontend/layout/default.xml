@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <body>
+    <!-- adding some javascript to the page -->
+
+        <referenceContainer name="content">
+    
+            <block name="someJavascript" template="Vidya_sagar_mukkavili_MageJsScript::templateForJS.phtml" />
+
+        </referenceContainer>
+
+    </body>
+
+
+
+</page>

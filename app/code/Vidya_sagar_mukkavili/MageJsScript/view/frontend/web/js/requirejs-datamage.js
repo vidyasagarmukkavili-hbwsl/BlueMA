@@ -1,0 +1,1 @@
+console.log('Data Mage method has called this js file succesfully');

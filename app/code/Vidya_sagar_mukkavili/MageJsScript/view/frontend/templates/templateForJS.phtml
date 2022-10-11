@@ -1,0 +1,44 @@
+<?php
+
+// "#maincontent": {
+//     "Vidya_sagar_mukkavili_MageJsScript/js/requirejs-nav-element-js": {}
+// },
+
+// This will be a JSON configuration array which will have a key as a CSS selector and then the value would be the path to the js file without the .js extension. the value of the value would be configuration for that particular js
+
+
+
+
+
+
+
+?>
+<!-- <h1>hello i m here</h1> -->
+
+
+<!-- <main data-bind='mageInit : {"data-mage-script": {}}'></main> -->
+
+<!-- <nav data-mage-init='{"Vidya_sagar_mukkavili_MageJsScript/js/requirejs-datamage":{}}'>Hello</nav> -->
+<!-- <nav data-mage-init='{"Vidya_sagar_mukkavili_MageJsScript/js/requirejs-someJavascript":{}}'>Testing the element tag</nav> -->
+
+
+
+<!-- Method 01 -->
+
+<!-- <nav id='target' data-mage-init='{"Vidya_sagar_mukkavili_MageJsScript/js/requirejs-someJavascript": {}}'>Second Test</nav> -->
+
+
+<!-- Method 02 -->
+
+<script type="text/x-magento-init">
+
+  {
+
+    "li": {
+          "jsScript": {
+            "base_url":"<?= $block->escapeJS($block->getBaseUrl()) ?>"
+         }
+    }
+}
+
+</script>
