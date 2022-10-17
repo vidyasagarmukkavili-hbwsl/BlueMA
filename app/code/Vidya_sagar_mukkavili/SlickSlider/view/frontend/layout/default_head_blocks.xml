@@ -3,15 +3,15 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 
 <head>
+
 <!-- slick css -->
     <!-- Slick CSS -->
     <css src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" src_type="url" />
-
     <!-- Slick Theme CSS -->
     <css src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" src_type="url" />
     <!-- Slick-min-CSS -->
     <css src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" src_type="url" />
-
+    
 </head>
 
 
